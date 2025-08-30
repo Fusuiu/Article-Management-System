@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/big_event
+    username: root
+    password: 4598765492
+  data:
+    redis:
+      host: localhost
+      port: 6379
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开起实体类中的属性驼峰命名和数据库中的字段下划线命名的自动转换
